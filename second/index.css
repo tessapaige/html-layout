@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+#top-container {
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#box1 {
+    height: 150px;
+    width: 50px;
+    background-color: purple;
+    display: inline-block;
+}
+
+#box2 {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    background-color: forestgreen;
+    margin: 0 50px;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#middle-container {
+    border-color: black;
+    border-style: dotted;
+    border-image-repeat: round;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+#shadow {
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#bottom-container {
+    background-color: white;
+    border: 1px solid lightgoldenrodyellow;
+    width: 50%;
+    padding: 100px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+}
+
+#bottom-container h1 {
+    width: 100%;
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+}
+
